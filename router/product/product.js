@@ -4,6 +4,6 @@ const { createProductController, fetchAllProductController } = require("../../co
 const router = express.Router();
 
 router.post('/product', createProductController)
-router.get("/product", fetchAllProductController)
+router.get("/products", fetchAllProductController)
 
 module.exports = router;
